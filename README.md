@@ -3,5 +3,5 @@ I'm a curious and driven software developer who lives between backend logic and 
 I create applications that solve real problems — with clean architecture, maintainable code, and a constant hunger to improve.  
 
 
-![Nom de la Technologie](https://imgur.com/hTwRNlp)
+![Java](https://upload.wikimedia.org/wikipedia/commons/3/30/Java_logo_icon.png)
 
