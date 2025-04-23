@@ -17,3 +17,4 @@ I create applications that solve real problems — with clean architecture, main
 
 
 
+🚧 Personal projects in progress. Coming soon!
