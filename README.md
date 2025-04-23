@@ -1,12 +1,26 @@
-## Hey there 👋! 
-I'm a curious and driven software developer who lives between backend logic and frontend magic.  
-I create applications that solve real problems — with clean architecture, maintainable code, and a constant hunger to improve.  
-
-
 ```java
-public class TechStack {
+public class DeveloperProfile {
 
     public static void main(String[] args) {
+        Introduction.print();
+        TechStack.print();
+        ComingSoon.print();
+    }
+}
+
+// 🧑‍💻 Introduction Section
+class Introduction {
+    public static void print() {
+        System.out.println("👋 Hi there!");
+        System.out.println("I'm a curious and driven software developer who lives between backend logic and frontend magic.");
+        System.out.println("I create applications that solve real problems — with clean architecture, maintainable code, and a constant hunger to improve.\n");
+    }
+}
+
+// 🛠 Tech Stack Section
+class TechStack {
+
+    public static void print() {
         System.out.println("🔧 Tech Stack Overview\n");
 
         printCategory("Backend", "Java", "Spring Boot", "Hibernate", "Node.js", "Express.js");
@@ -17,7 +31,7 @@ public class TechStack {
         printCategory("Version Control & CI/CD", "Git", "GitHub", "GitLab");
     }
 
-    public static void printCategory(String category, String... technologies) {
+    private static void printCategory(String category, String... technologies) {
         System.out.println("📁 " + category + ":");
         for (String tech : technologies) {
             System.out.println("  - " + tech);
@@ -26,6 +40,10 @@ public class TechStack {
     }
 }
 
+// 🚧 Projects Coming Soon
+class ComingSoon {
+    public static void print() {
+        System.out.println("🚧 Personal projects in progress. Coming soon!");
+    }
+}
 
-
-🚧 Personal projects in progress. Coming soon!
